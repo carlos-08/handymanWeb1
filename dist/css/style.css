@@ -206,6 +206,8 @@ textarea::placeholder {
   margin: 10px; }
 
 @media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden; }
   .logo {
     margin-left: 5%; }
   .nav-list {
@@ -265,6 +267,8 @@ textarea::placeholder {
     width: 72%; } }
 
 @media screen and (max-width: 414px) {
+  body {
+    overflow-x: hidden; }
   .showcase-text {
     font-size: 1rem; }
   #section1 .text-content {

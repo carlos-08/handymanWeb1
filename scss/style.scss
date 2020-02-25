@@ -306,9 +306,9 @@ textarea::placeholder {
 ////
 
 @media screen and (max-width: 1024px) {
-  // body {
-  //   background: #333333;
-  // }
+  body {
+    overflow-x: hidden;
+  }
 
   .logo {
     margin-left: 5%;
@@ -407,9 +407,9 @@ textarea::placeholder {
 }
 
 @media screen and (max-width: 414px) {
-  // body {
-  //   background: #333333;
-  // }
+  body {
+    overflow-x: hidden;
+  }
 
   .showcase-text {
     font-size: 1rem;
