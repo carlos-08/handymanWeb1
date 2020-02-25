@@ -269,6 +269,8 @@ textarea::placeholder {
 @media screen and (max-width: 414px) {
   body {
     overflow-x: hidden; }
+  .nav-list {
+    height: 38vh; }
   .showcase-text {
     font-size: 1rem; }
   #section1 .text-content {
