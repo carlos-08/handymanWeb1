@@ -136,6 +136,9 @@
 }
 
 @media (max-width: 400px) {
+  body {
+    overflow-x: hidden;
+  }
   .nav-list {
     position: absolute;
     right: 0;
