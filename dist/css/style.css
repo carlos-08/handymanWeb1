@@ -196,7 +196,7 @@ textarea::placeholder {
   #footer .about ul li {
     color: #c9c9c9; }
   #footer .copy {
-    margin: 10px 0; }
+    margin-top: 15px; }
     #footer .copy p {
       color: #c9c9c9; }
     #footer .copy p span {
@@ -286,6 +286,12 @@ textarea::placeholder {
     margin: 0 5%; }
   #testimonials .testimonial {
     width: 90%; } }
+
+@media (max-width: 400px) {
+  #section2 .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 6% 0 4%; } }
 
 .nav-active {
   transform: translateX(10%); }

@@ -41,7 +41,6 @@
 
   .logo {
     margin-left: 4%;
-    background: #333;
   }
 
   .nav-list {
@@ -137,7 +136,11 @@
 }
 
 @media (max-width: 400px) {
-  body {
-    background: #333333;
+  #section2 {
+    .services {
+      display: grid;
+      grid-template-columns: 1fr;
+      margin: 0 6% 0 4%;
+    }
   }
 }
