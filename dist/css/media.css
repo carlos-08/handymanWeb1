@@ -1,0 +1,96 @@
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden; }
+  .logo {
+    margin-left: 5%; }
+  .nav-list {
+    margin-right: 2.9%; }
+  #section1 .text-content {
+    width: 37%;
+    margin-left: 5%; }
+  #section1 .quotation-form {
+    width: 38%;
+    margin-right: 5%; }
+  #section2 .services {
+    width: 90%;
+    grid-template-columns: auto auto; }
+  #testimonials .testimonial {
+    width: 50%; } }
+
+@media screen and (max-width: 800px) {
+  body {
+    overflow-x: hidden; }
+  .logo {
+    margin-left: 4%; }
+  .nav-list {
+    position: absolute;
+    right: 0;
+    height: 30vh;
+    top: 7vh;
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    padding-top: 15px;
+    transform: translateX(110%);
+    transition: transform 0.5s ease-in;
+    z-index: 1; }
+  .list-item {
+    opacity: 1;
+    margin: 20px auto; }
+  .burger {
+    display: block;
+    cursor: pointer;
+    margin-left: 4%; }
+  #section1 {
+    display: grid;
+    grid-template-columns: auto;
+    margin: auto; }
+    #section1 .text-content,
+    #section1 .quotation-form {
+      width: 92%;
+      margin: 40px 30px; }
+  #section2 .services {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 92%;
+    margin: 40px 30px; }
+  #testimonials .testimonial {
+    width: 72%; } }
+
+@media screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden; }
+  .nav-list {
+    height: 40vh; }
+  .showcase-text {
+    font-size: 1rem; }
+  #section1 .text-content {
+    width: 90%;
+    margin: 30px 5%; }
+  #section1 .quotation-form {
+    width: 90%;
+    margin: 30px 5%; }
+    #section1 .quotation-form form button {
+      width: 50%; }
+  #section2 .services {
+    grid-template-columns: 373px;
+    margin: 0 5%; }
+  #testimonials .testimonial {
+    width: 90%; } }
+
+@media (max-width: 400px) {
+  body {
+    overflow-x: hidden; }
+  .showcase {
+    height: 300px; }
+  .nav-list {
+    position: absolute;
+    right: 0;
+    height: 50vh;
+    top: 9vh; }
+  #section2 .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 6% 0 4%; } }

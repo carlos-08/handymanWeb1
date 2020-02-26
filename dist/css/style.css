@@ -292,6 +292,14 @@ textarea::placeholder {
 @media (max-width: 400px) {
   body {
     overflow-x: hidden; }
+  .showcase {
+    height: 300px; }
+  .showcase-text {
+    position: relative;
+    top: 9vh;
+    color: #fff;
+    font-size: 1rem;
+    width: 70%; }
   .nav-list {
     position: absolute;
     right: 0;
