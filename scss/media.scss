@@ -105,7 +105,7 @@
   }
 
   .nav-list {
-    height: 39vh;
+    height: 40vh;
   }
 
   .showcase-text {
@@ -137,7 +137,10 @@
 
 @media (max-width: 400px) {
   .nav-list {
-    height: 43vh;
+    position: absolute;
+    right: 0;
+    height: 45vh;
+    top: 9vh;
   }
 
   #section2 {
