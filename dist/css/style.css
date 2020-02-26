@@ -224,7 +224,7 @@ textarea::placeholder {
   #testimonials .testimonial {
     width: 50%; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   body {
     overflow-x: hidden; }
   .logo {
@@ -266,7 +266,7 @@ textarea::placeholder {
   #testimonials .testimonial {
     width: 72%; } }
 
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 500px) {
   body {
     overflow-x: hidden; }
   .nav-list {
