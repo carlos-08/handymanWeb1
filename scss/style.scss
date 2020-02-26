@@ -97,6 +97,8 @@ a {
   font-family: sans-serif;
   width: 70%;
   margin: auto;
+
+  text-shadow: 2px 2px 3px#333;
 }
 
 /* section 1 */
@@ -298,14 +300,6 @@ textarea::placeholder {
     }
   }
 }
-
-////////
-.mtp div {
-  display: inline-block;
-  margin: 10px;
-  width: 50%;
-}
-////
 
 @import "media";
 
