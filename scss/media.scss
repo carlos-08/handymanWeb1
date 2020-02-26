@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
+  // body {
+  //   overflow-x: hidden;
+  // }
 
   .logo {
     margin-left: 5%;
@@ -35,9 +35,9 @@
 }
 
 @media screen and (max-width: 800px) {
-  body {
-    overflow-x: hidden;
-  }
+  // body {
+  //   overflow-x: hidden;
+  // }
 
   .logo {
     margin-left: 4%;
@@ -47,12 +47,13 @@
     position: absolute;
     right: 0;
     height: 30vh;
-    top: 7vh;
+    top: 6vh;
     background: #333;
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 110%;
     padding-top: 15px;
     transform: translateX(110%);
     transition: transform 0.5s ease-in;
@@ -100,9 +101,9 @@
 }
 
 @media screen and (max-width: 500px) {
-  body {
-    overflow-x: hidden;
-  }
+  // body {
+  //   overflow-x: hidden;
+  // }
 
   .nav-list {
     height: 40vh;
@@ -136,9 +137,9 @@
 }
 
 @media (max-width: 400px) {
-  body {
-    overflow-x: hidden;
-  }
+  // body {
+  //   overflow-x: hidden;
+  // }
 
   .showcase {
     height: 300px;
