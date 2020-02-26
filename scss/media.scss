@@ -105,7 +105,7 @@
   }
 
   .nav-list {
-    height: 38vh;
+    height: 39vh;
   }
 
   .showcase-text {
@@ -136,6 +136,10 @@
 }
 
 @media (max-width: 400px) {
+  .nav-list {
+    height: 43vh;
+  }
+
   #section2 {
     .services {
       display: grid;
