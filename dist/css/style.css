@@ -79,7 +79,7 @@ a {
 
 #section1 .text-content {
   width: 28%;
-  margin: 65px 0 0 15%; }
+  margin: 8rem 0 0 15%; }
 
 #section1 .text-content h3 {
   font-size: 1.8rem;
@@ -202,8 +202,10 @@ textarea::placeholder {
     #footer .copy p span {
       color: #3e8e84; }
 
-.mtp {
-  margin: 10px; }
+.mtp div {
+  display: inline-block;
+  margin: 10px;
+  width: 50%; }
 
 @media screen and (max-width: 1024px) {
   body {
@@ -270,7 +272,7 @@ textarea::placeholder {
   body {
     overflow-x: hidden; }
   .nav-list {
-    height: 38vh; }
+    height: 40vh; }
   .showcase-text {
     font-size: 1rem; }
   #section1 .text-content {
@@ -288,6 +290,13 @@ textarea::placeholder {
     width: 90%; } }
 
 @media (max-width: 400px) {
+  body {
+    overflow-x: hidden; }
+  .nav-list {
+    position: absolute;
+    right: 0;
+    height: 50vh;
+    top: 9vh; }
   #section2 .services {
     display: grid;
     grid-template-columns: 1fr;
