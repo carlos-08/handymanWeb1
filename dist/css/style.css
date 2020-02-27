@@ -268,6 +268,8 @@ textarea::placeholder {
     width: 72%; } }
 
 @media screen and (max-width: 500px) {
+  .logo {
+    font-size: 1rem; }
   .nav-list {
     height: 40vh; }
   .showcase-text {
