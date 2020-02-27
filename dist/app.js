@@ -24,8 +24,8 @@ navSlide();
 
 // animation
 AOS.init({
-  offset: 250,
-  duration: 1000
+  offset: 200,
+  duration: 0900
 });
 
 // smooth scroll
