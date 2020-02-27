@@ -9,10 +9,12 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
+
     <title>Handyman</title>
   </head>
   <body>
@@ -28,7 +30,7 @@
           <ul class="nav-list">
             <li class="list-item"><a href="#">Home</a></li>
             <li class="list-item"><a href="#">About</a></li>
-            <li class="list-item"><a href="#section2">Services</a></li>
+            <li class="list-item services"><a href="#section2">Services</a></li>
             <li class="list-item"><a href="#">Contact</a></li>
           </ul>
 
@@ -77,7 +79,7 @@
     <section id="section2">
       <!-- <h2>Services</h2> -->
       <div class="services">
-        <div class="box1 box">
+        <div class="box1 box" data-aos="fade-right">
           <img class="img" src="./img/plumbing.jpg" alt="" />
           <div class="text-content">
             <h3>Plumbing</h3>
@@ -87,7 +89,7 @@
             </p>
           </div>
         </div>
-        <div class="box2 box ">
+        <div class="box2 box " data-aos="zoom-in">
           <img src="./img/floor-flooring-hand-man-1388944.jpeg" alt="" />
           <div class="text-content">
             <h3>Flooring</h3>
@@ -97,7 +99,7 @@
             </p>
           </div>
         </div>
-        <div class="box3 box">
+        <div class="box3 box" data-aos="fade-left">
           <img src="./img/drywall.jpg" alt="" />
           <div class="text-content">
             <h3>Drywall</h3>
@@ -107,7 +109,7 @@
             </p>
           </div>
         </div>
-        <div class="box4 box">
+        <div class="box4 box" data-aos="fade-right">
           <img src="./img/painting.jpeg" alt="" />
           <div class="text-content">
             <h3>Painting</h3>
@@ -118,7 +120,7 @@
           </div>
         </div>
 
-        <div class="box6 box">
+        <div class="box6 box" data-aos="zoom-in">
           <img src="./img/remodeling.jpg" />
           <div class="text-content">
             <h3>Remodelation</h3>
@@ -128,7 +130,7 @@
             </p>
           </div>
         </div>
-        <div class="box7 box">
+        <div class="box7 box" data-aos="fade-left">
           <img src="./img/electrical-repair-concept.jpg" alt="" />
           <div class="text-content">
             <h3>Electrical</h3>
@@ -144,8 +146,8 @@
     <!-- Testimonials -->
     <div id="testimonials">
       <h2>Testimonials</h2>
-      <div class="testimonial">
-        <img src="./img/testimonial1.jpeg" alt="" />
+      <div class="testimonial" data-aos="zoom-in-left">
+        <img src="./img/testimonial1.jpeg " alt="" />
         <h3>James Johnson</h3>
         <h5>client</h5>
         <p>
@@ -153,7 +155,7 @@
           asperiores explicabo aspernatur reprehenderit dolorum eius quibusdam !
         </p>
       </div>
-      <div class="testimonial">
+      <div class="testimonial" data-aos="zoom-in-right">
         <img src="./img/testimonial2.jpg" alt="" />
         <h3>Mary Adams</h3>
         <h5>client</h5>
@@ -162,7 +164,7 @@
           asperiores explicabo aspernatur reprehenderit dolorum eius quibusdam !
         </p>
       </div>
-      <div class="testimonial">
+      <div class="testimonial" data-aos="zoom-in-left">
         <img src="./img/testimonial3.jpg" alt="" />
         <h3>Patricia Elizabeth</h3>
         <h5>client</h5>
@@ -193,6 +195,7 @@
       </div>
     </footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
   </body>
 </html>

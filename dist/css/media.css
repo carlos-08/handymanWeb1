@@ -1,6 +1,4 @@
 @media screen and (max-width: 1024px) {
-  body {
-    overflow-x: hidden; }
   .logo {
     margin-left: 5%; }
   .nav-list {
@@ -18,27 +16,27 @@
     width: 50%; } }
 
 @media screen and (max-width: 800px) {
-  body {
-    overflow-x: hidden; }
   .logo {
     margin-left: 4%; }
   .nav-list {
     position: absolute;
     right: 0;
     height: 30vh;
-    top: 7vh;
+    top: 6vh;
     background: #333;
+    opacity: 0.9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
-    padding-top: 15px;
+    width: 110%;
+    padding-top: 30px;
     transform: translateX(110%);
     transition: transform 0.5s ease-in;
     z-index: 1; }
   .list-item {
     opacity: 1;
-    margin: 20px auto; }
+    margin: 20px auto;
+    text-transform: uppercase; }
   .burger {
     display: block;
     cursor: pointer;
@@ -60,8 +58,6 @@
     width: 72%; } }
 
 @media screen and (max-width: 500px) {
-  body {
-    overflow-x: hidden; }
   .nav-list {
     height: 40vh; }
   .showcase-text {
@@ -79,18 +75,3 @@
     margin: 0 5%; }
   #testimonials .testimonial {
     width: 90%; } }
-
-@media (max-width: 400px) {
-  body {
-    overflow-x: hidden; }
-  .showcase {
-    height: 300px; }
-  .nav-list {
-    position: absolute;
-    right: 0;
-    height: 50vh;
-    top: 9vh; }
-  #section2 .services {
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 6% 0 4%; } }

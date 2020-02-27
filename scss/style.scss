@@ -8,7 +8,7 @@
 /* main style */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
   overflow-x: hidden;
   width: 100%;
 }
@@ -26,7 +26,7 @@ a {
 
 .logo {
   /* margin-left: 15%; */
-  margin: 20px 0 10px 15.5%;
+  margin: 20px 0 10px 15%;
   color: $white-color;
   font-size: 1.3rem;
 }
@@ -46,8 +46,14 @@ a {
 }
 
 #nav-bar {
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // right: 0;
   display: flex;
   justify-content: space-between;
+
+  z-index: 2;
 }
 
 .nav-list {
@@ -67,15 +73,11 @@ a {
   }
 
   a:hover {
-    border-bottom: 3px solid $brown-color;
+    border-bottom: 3px solid $line-color;
   }
 }
 
 .burger {
-  // position: relative;
-
-  // top: 18px;
-  // right: 35px;
   display: none;
   z-index: 1;
 
@@ -112,7 +114,7 @@ a {
 
 #section1 .text-content {
   width: 28%;
-  margin: 8rem 0 0 15%;
+  margin: 7.3rem 0 0 15%;
 }
 
 #section1 .text-content h3 {
@@ -122,7 +124,7 @@ a {
 }
 
 #section1 .text-content .line {
-  background: $brown-color;
+  background: $line-color;
   width: 30px;
   height: 5px;
   margin-bottom: 15px;
@@ -134,23 +136,13 @@ a {
   font-size: 1.1rem;
 }
 
-/* quotation form */
-
-// #section1 {
-//   // height: 450px;
-// }
-
 #section1 .quotation-form {
-  // position: absolute;
-  // top: 58vh;
-  // left: 54.5%;
   margin-right: 15%;
   width: 30%;
 
   background: $white-color;
   border-radius: 10px;
   box-shadow: 5px 5px 20px rgba(180, 180, 180, 0.5);
-  /* -3px -3px 4px rgba(200, 200, 200, 0.05); */
 }
 
 #section1 .quotation-form form h3 {
@@ -183,26 +175,26 @@ textarea::placeholder {
   padding: 12px;
   border: none;
   border-radius: 3px;
-  background: $brown-color;
-  color: #fff;
-  width: 30%;
+  background: $line-color;
+  color: $white-color;
+  width: 35%;
   font-size: 0.9rem;
   cursor: pointer;
+  transition: background 0.2s ease-in;
+
+  &:hover {
+    background: #126157;
+  }
 }
 
 // Section2 services
 
 #section2 {
-  // h2 {
-  //   text-align: center;
-  //   font-size: 3.1rem;
-  //   padding-top: 2rem;
-  // }
-  background: #ddd;
+  background: #b9b9b9;
   .services {
     width: 70%;
     margin: auto;
-    padding: 85px 0;
+    padding: 100px 0;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -222,13 +214,15 @@ textarea::placeholder {
         // text-align: justify;
 
         h3 {
-          font-size: 1.4rem;
+          font-size: 1.5rem;
+
           margin-bottom: 8px;
+          color: $heading-lightblack;
         }
 
         p {
           color: $grey-color;
-          font-size: 1.1rem;
+          font-size: 1.2rem;
         }
       }
     }
@@ -275,7 +269,7 @@ textarea::placeholder {
 
 #footer {
   text-align: center;
-  background: #333;
+  background: $dark-color;
   color: $white-color;
   padding: 30px 0;
 
