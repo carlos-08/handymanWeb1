@@ -42,6 +42,8 @@ a {
 .nav-list {
   display: flex;
   margin-right: 14%; }
+  .nav-list hr {
+    display: none; }
 
 .nav-list .list-item {
   margin: 20px 18px;
@@ -231,18 +233,28 @@ textarea::placeholder {
   .nav-list {
     position: absolute;
     right: 0;
-    height: 30vh;
+    height: 94vh;
     top: 6vh;
     background: #333;
     opacity: 0.9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 110%;
+    width: 100%;
     padding-top: 30px;
-    transform: translateX(110%);
+    margin: 0;
+    transform: translateX(100%);
     transition: transform 0.5s ease-in;
     z-index: 1; }
+    .nav-list hr {
+      width: 76%;
+      border: 1px solid #126157;
+      height: 0;
+      display: inline-block;
+      transform: translateX(-400%); }
+    .nav-list .list-item a:hover {
+      border-bottom: none;
+      color: #3e8e84; }
   .list-item {
     opacity: 1;
     margin: 20px auto;
@@ -270,8 +282,6 @@ textarea::placeholder {
 @media screen and (max-width: 500px) {
   .logo {
     font-size: 1rem; }
-  .nav-list {
-    height: 40vh; }
   .showcase-text {
     font-size: 1rem; }
   #section1 .text-content {
@@ -300,15 +310,14 @@ textarea::placeholder {
   .nav-list {
     position: absolute;
     right: 0;
-    height: 50vh;
-    top: 9vh; }
+    top: 6vh; }
   #section2 .services {
     display: grid;
     grid-template-columns: 1fr;
     margin: 0 6% 0 4%; } }
 
 .nav-active {
-  transform: translateX(10%); }
+  transform: translateX(0%); }
 
 @keyframes navLinkFade {
   from {
@@ -317,6 +326,14 @@ textarea::placeholder {
   to {
     opacity: 1;
     transform: translateX(0px); } }
+
+@keyframes lineFade {
+  from {
+    opacity: 0;
+    transform: translate(-50px); }
+  to {
+    opacity: 1;
+    transform: translate(0px); } }
 
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px); }
