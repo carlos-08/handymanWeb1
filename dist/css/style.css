@@ -315,7 +315,7 @@ textarea::placeholder {
   .nav-list {
     position: absolute;
     right: 0;
-    top: 7vh; }
+    top: 7.5vh; }
   #section2 .services {
     display: grid;
     grid-template-columns: 1fr;
