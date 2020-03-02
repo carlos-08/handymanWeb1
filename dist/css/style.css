@@ -19,7 +19,7 @@ a {
 /* navbar */
 .logo {
   /* margin-left: 15%; */
-  margin: 20px 0 10px 15%;
+  margin: 20px 0 20px 15%;
   color: #fff;
   font-size: 1.3rem; }
 
@@ -35,6 +35,11 @@ a {
   height: 650px; }
 
 #nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #3339;
   display: flex;
   justify-content: space-between;
   z-index: 2; }

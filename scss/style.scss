@@ -26,7 +26,7 @@ a {
 
 .logo {
   /* margin-left: 15%; */
-  margin: 20px 0 10px 15%;
+  margin: 20px 0 20px 15%;
   color: $white-color;
   font-size: 1.3rem;
 }
@@ -46,10 +46,11 @@ a {
 }
 
 #nav-bar {
-  // position: fixed;
-  // top: 0;
-  // left: 0;
-  // right: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #3339;
   display: flex;
   justify-content: space-between;
 

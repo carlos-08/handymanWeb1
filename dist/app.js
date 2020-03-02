@@ -86,3 +86,18 @@ let services = document.querySelector(".services");
 services.addEventListener("click", () => {
   smoothScroll("#section2", 1500);
 });
+
+function navBackColor() {
+  let target1 = document.querySelector("#section1");
+  let navBar = document.querySelector("#nav-bar");
+
+  let targetP = target1.getBoundingClientRect().top;
+  let navBarP = navBar.getBoundingClientRect().top;
+  console.log(targetP);
+  console.log(navBarP);
+  if (targetP == 15) {
+    navBar.style.backgroundColor = "black";
+  }
+}
+
+navBackColor();
