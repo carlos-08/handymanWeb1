@@ -288,8 +288,8 @@ textarea::placeholder {
   .logo {
     font-size: 1rem; }
   .showcase-text {
-    top: 28vh;
-    font-size: 0.9rem; }
+    top: 29vh;
+    font-size: 1rem; }
   #section1 .text-content {
     width: 90%;
     margin: 30px 5%; }
@@ -308,10 +308,9 @@ textarea::placeholder {
   .showcase {
     height: 300px; }
   .showcase-text {
-    position: relative;
-    top: 9vh;
+    top: 36%;
     color: #fff;
-    font-size: 1rem;
+    font-size: 0.9rem;
     width: 70%; }
   .nav-list {
     position: absolute;
