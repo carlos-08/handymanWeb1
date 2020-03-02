@@ -45,7 +45,7 @@
     height: 94vh;
     top: 6vh;
     background: #333;
-    opacity: 0.9;
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +115,7 @@
 
 @media screen and (max-width: 500px) {
   .logo {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .showcase-text {

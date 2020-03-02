@@ -39,7 +39,8 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  background: #3339;
+  background: #333;
+  opacity: 0.9;
   display: flex;
   justify-content: space-between;
   z-index: 2; }
@@ -51,7 +52,7 @@ a {
     display: none; }
 
 .nav-list .list-item {
-  margin: 20px 18px;
+  margin: 20px 16px;
   color: #fff;
   font-size: 1.2rem;
   letter-spacing: 1px; }
@@ -241,7 +242,6 @@ textarea::placeholder {
     height: 94vh;
     top: 6vh;
     background: #333;
-    opacity: 0.9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -286,7 +286,7 @@ textarea::placeholder {
 
 @media screen and (max-width: 500px) {
   .logo {
-    font-size: 1rem; }
+    font-size: 1.1rem; }
   .showcase-text {
     top: 29vh;
     font-size: 1rem; }
