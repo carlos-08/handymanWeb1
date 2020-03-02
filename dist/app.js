@@ -20,6 +20,7 @@ const navSlide = () => {
       }
       // remove nav when click on link
       link.addEventListener("click", () => {
+        link.classList.add("active");
         if (nav.classList.contains("nav-active")) {
           nav.classList.remove("nav-active");
           burger.classList.remove("toggle");
@@ -81,23 +82,27 @@ function smoothScroll(target, duration) {
   requestAnimationFrame(animation);
 }
 
-let services = document.querySelector(".services");
+let services = document.querySelector(".servicesLink");
+let home = document.querySelector(".home");
 
 services.addEventListener("click", () => {
   smoothScroll("#section2", 1500);
 });
+home.addEventListener("click", () => {
+  smoothScroll("#main-header", 1500);
+});
 
-function navBackColor() {
-  let target1 = document.querySelector("#section1");
-  let navBar = document.querySelector("#nav-bar");
+// function navBackColor() {
+//   let target1 = document.querySelector("#section1");
+//   let navBar = document.querySelector("#nav-bar");
 
-  let targetP = target1.getBoundingClientRect().top;
-  let navBarP = navBar.getBoundingClientRect().top;
-  console.log(targetP);
-  console.log(navBarP);
-  if (targetP == 15) {
-    navBar.style.backgroundColor = "black";
-  }
-}
+//   let targetP = target1.getBoundingClientRect().top;
+//   let navBarP = navBar.getBoundingClientRect().top;
+//   console.log(targetP);
+//   console.log(navBarP);
+//   if (targetP == 15) {
+//     navBar.style.backgroundColor = "black";
+//   }
+// }
 
-navBackColor();
+// navBackColor();
