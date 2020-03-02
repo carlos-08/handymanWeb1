@@ -42,7 +42,7 @@ navSlide();
 
 // animation
 AOS.init({
-  offset: 180,
+  offset: 160,
   duration: 0900
 });
 
