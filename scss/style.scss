@@ -50,7 +50,7 @@ a {
   top: 0;
   left: 0;
   right: 0;
-  background: #333;
+  background: $dark-color;
   opacity: 0.9;
   display: flex;
   justify-content: space-between;
@@ -269,6 +269,11 @@ textarea::placeholder {
       color: $grey-color;
     }
   }
+}
+
+//navb
+.navBottom {
+  display: none;
 }
 
 // Footer
