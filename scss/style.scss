@@ -25,18 +25,25 @@ a {
 /* navbar */
 
 .logo {
+  font-family: "Noto Sans TC", sans-serif;
   /* margin-left: 15%; */
   margin: 20px 0 20px 15%;
   color: $white-color;
   font-size: 1.3rem;
+
+  // img {
+  //   height: 200px;
+  //   width: 200px;
+  // }
 }
 
-.logo h3 {
-  font-family: sans-serif;
-}
+// .logo h3 {
+//   font-family: "PT Serif", sans-serif;
+// }
 
 .logo span {
-  font-family: "Roboto";
+  // font-family: "Roboto";
+  color: $line-color;
 }
 
 .showcase {

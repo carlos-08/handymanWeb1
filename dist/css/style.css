@@ -18,16 +18,14 @@ a {
 
 /* navbar */
 .logo {
+  font-family: "Noto Sans TC", sans-serif;
   /* margin-left: 15%; */
   margin: 20px 0 20px 15%;
   color: #fff;
   font-size: 1.3rem; }
 
-.logo h3 {
-  font-family: sans-serif; }
-
 .logo span {
-  font-family: "Roboto"; }
+  color: #3e8e84; }
 
 .showcase {
   background: url(../img/pexels-photo-2.jpeg) center center/cover no-repeat;
