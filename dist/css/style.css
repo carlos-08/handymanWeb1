@@ -161,7 +161,8 @@ textarea::placeholder {
     gap: 3rem; }
     #section2 .services .box {
       background: #f3f3f3;
-      border-radius: 5px; }
+      border-radius: 5px;
+      box-shadow: 8px 8px 10px rgba(170, 170, 170, 0.5); }
       #section2 .services .box img {
         height: 200px;
         width: 100%; }
