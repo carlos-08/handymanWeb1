@@ -30,7 +30,7 @@ a {
 .showcase {
   background: url(../img/pexels-photo-2.jpeg) center center/cover no-repeat;
   width: 100%;
-  height: 650px; }
+  height: 70vh; }
 
 #nav-bar {
   position: fixed;
@@ -74,13 +74,21 @@ a {
 .showcase-text {
   text-align: center;
   position: relative;
-  top: 22vh;
+  top: 25vh;
   color: #fff;
   font-size: 1.4rem;
   font-family: sans-serif;
   width: 70%;
-  margin: auto;
-  text-shadow: 2px 2px 3px #333; }
+  margin: auto; }
+  .showcase-text .phone {
+    width: 14vw;
+    background: #1659;
+    margin: auto;
+    border-radius: 10px; }
+    .showcase-text .phone h5 {
+      width: 100%;
+      padding: 10px;
+      text-shadow: 2px 2px 3px #333; }
 
 /* section 1 */
 #section1 {
@@ -148,7 +156,8 @@ textarea::placeholder {
   cursor: pointer;
   transition: background 0.2s ease-in; }
   #section1 .quotation-form form button:hover {
-    background: #126157; }
+    background: #126157;
+    color: #fff; }
 
 #section2 {
   background: #c9c9c9; }
@@ -289,6 +298,53 @@ textarea::placeholder {
     display: block;
     cursor: pointer;
     margin-left: 4%; }
+  .showcase {
+    height: 100vh; }
+  .showcase-text {
+    top: 40vh; }
+  .showcase-text .phone {
+    width: 28vw; }
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    transform: translateY(-80px) translateX(-50%) rotate(45deg); }
+    .scroll-down span {
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: block;
+      width: 100%;
+      height: 100%;
+      border-bottom: 2px solid #fff;
+      border-right: 2px solid #fff;
+      animation: animate 1.5s linear infinite;
+      opacity: 0; }
+      .scroll-down span:nth-child(1) {
+        transform: translate(-15px, -15px);
+        animation-delay: -0.4s; }
+      .scroll-down span:nth-child(2) {
+        transform: translate(0, 0);
+        animation-delay: -0.2s; }
+      .scroll-down span:nth-child(3) {
+        transform: translate(15px, 15px);
+        animation-delay: 0; }
+  @keyframes animate {
+    0% {
+      top: -5px;
+      left: -5px;
+      opacity: 0; }
+    25% {
+      top: 0px;
+      left: 0px;
+      opacity: 1; }
+    50%,
+    100% {
+      top: 5px;
+      left: 5px;
+      opacity: 0; } }
   #section1 {
     display: grid;
     grid-template-columns: auto;
@@ -308,8 +364,9 @@ textarea::placeholder {
 @media screen and (max-width: 500px) {
   .logo {
     font-size: 1.1rem; }
+  .showcase-text .phone {
+    width: 30vw; }
   .showcase-text {
-    top: 29vh;
     font-size: 1rem; }
   #section1 .text-content {
     width: 90%;
@@ -326,8 +383,6 @@ textarea::placeholder {
     width: 90%; } }
 
 @media (max-width: 400px) {
-  .showcase {
-    height: 300px; }
   .showcase-text {
     top: 36%;
     color: #fff;
