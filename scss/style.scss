@@ -201,9 +201,9 @@ textarea::placeholder {
 }
 
 // Section2 services
-
+//#b9b9b9;
 #section2 {
-  background: #b9b9b9;
+  background: #c9c9c9;
   .services {
     width: 70%;
     margin: auto;
@@ -214,14 +214,16 @@ textarea::placeholder {
     gap: 3rem;
 
     .box {
-      // background: $white-color;
+      background: #f3f3f3;
       img {
         height: 200px;
         width: 100%;
       }
 
+      border-radius: 5px;
+
       .text-content {
-        padding: 15px 0;
+        padding: 15px 2rem;
         margin: 0 auto;
 
         // text-align: justify;

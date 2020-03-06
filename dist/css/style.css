@@ -151,7 +151,7 @@ textarea::placeholder {
     background: #126157; }
 
 #section2 {
-  background: #b9b9b9; }
+  background: #c9c9c9; }
   #section2 .services {
     width: 70%;
     margin: auto;
@@ -159,21 +159,24 @@ textarea::placeholder {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem; }
-    #section2 .services .box img {
-      height: 200px;
-      width: 100%; }
-    #section2 .services .box .text-content {
-      padding: 15px 0;
-      margin: 0 auto; }
-      #section2 .services .box .text-content h3 {
-        font-size: 1.5rem;
-        margin-bottom: 8px;
-        color: #2d2d2d; }
-      #section2 .services .box .text-content p,
-      #section2 .services .box .text-content ul li {
-        color: #494949;
-        font-size: 1.2rem;
-        margin-top: 8px; }
+    #section2 .services .box {
+      background: #f3f3f3;
+      border-radius: 5px; }
+      #section2 .services .box img {
+        height: 200px;
+        width: 100%; }
+      #section2 .services .box .text-content {
+        padding: 15px 2rem;
+        margin: 0 auto; }
+        #section2 .services .box .text-content h3 {
+          font-size: 1.5rem;
+          margin-bottom: 8px;
+          color: #2d2d2d; }
+        #section2 .services .box .text-content p,
+        #section2 .services .box .text-content ul li {
+          color: #494949;
+          font-size: 1.2rem;
+          margin-top: 8px; }
 
 #about {
   width: 28%;
