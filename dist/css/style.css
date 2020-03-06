@@ -79,7 +79,8 @@ a {
   font-size: 1.4rem;
   font-family: sans-serif;
   width: 70%;
-  margin: auto; }
+  margin: auto;
+  text-shadow: 2px 2px 3px #333; }
   .showcase-text .phone {
     width: 14vw;
     background: #1659;
