@@ -92,17 +92,21 @@ home.addEventListener("click", () => {
   smoothScroll("#main-header", 1500);
 });
 
-// function navBackColor() {
-//   let target1 = document.querySelector("#section1");
-//   let navBar = document.querySelector("#nav-bar");
+// Quotation Form
+// function contact() {
+//   let submitBtn = document.querySelector(".submit");
 
-//   let targetP = target1.getBoundingClientRect().top;
-//   let navBarP = navBar.getBoundingClientRect().top;
-//   console.log(targetP);
-//   console.log(navBarP);
-//   if (targetP == 15) {
-//     navBar.style.backgroundColor = "black";
-//   }
+//   submitBtn.addEventListener("click", event => {
+//     let name = document.querySelector(".name");
+//     let email = document.querySelector(".email").value;
+//     let message = document.querySelector(".message").value;
+//     let statusElm = document.querySelector(".status");
+//     statusElm.empty();
+
+//     if (!(email.length > 5 && email.includes("@") && email.includes("."))) {
+//       event.preventDefault();
+//       statusElm.textContent = "Email is not valid";
+//     }
+//   });
 // }
-
-// navBackColor();
+// contact();

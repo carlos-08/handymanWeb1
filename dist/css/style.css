@@ -214,8 +214,9 @@ textarea::placeholder {
       font-size: 1.2rem;
       color: #494949; }
 
-.navBottom {
-  display: none; }
+.status h4 {
+  color: red;
+  font-size: 1.5rem; }
 
 #footer {
   text-align: center;

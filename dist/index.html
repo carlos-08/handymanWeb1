@@ -79,22 +79,43 @@
       </div>
 
       <div class="quotation-form" data-aos="zoom-in">
-        <form method="POST" data-netlify-recaptcha="true" data-netlify="true">
+        <form
+          action="https://formspree.io/cruzcontreras49@yahoo.com"
+          method="POST"
+          name="contact"
+        >
           <h3>GET QUOTATION</h3>
-          <input type="text" name="name" id="name" placeholder="Name" />
-          <input type="email" name="mail" id="mail" placeholder="Email" />
+          <input
+            type="text"
+            class="name"
+            name="name"
+            id="name"
+            placeholder="Name"
+          />
+
+          <!-- <input type="number" class="phone" name="phone" placeholder="Phone" /> -->
+          <input
+            type="email"
+            class="email"
+            name="mail"
+            id="mail"
+            placeholder="Email"
+          />
           <textarea
             name="message"
+            class="message"
             id=""
             cols="30"
             rows="5"
             placeholder="Message"
           ></textarea>
-          <div class="recaptcha">
+          <!-- <div class="recaptcha">
             <div data-netlify-recaptcha="true"></div>
-          </div>
+          </div> -->
 
-          <button id="btn">Send Message</button>
+          <div class="status"><h4></h4></div>
+
+          <button type="submit" id="btn" class="submit">Send Message</button>
         </form>
       </div>
     </section>
@@ -163,7 +184,7 @@
             </p>
           </div>
         </div>
-        <div class="box7 box" data-aos="fade-left">
+        <div class="box7 box" data-aos="fade-right">
           <img src="./img/stairs.jpg" alt="" />
           <div class="text-content">
             <h3>Indoor and Outdoor Painting</h3>
@@ -173,7 +194,7 @@
             </p>
           </div>
         </div>
-        <div class="box8 box" data-aos="fade-left">
+        <div class="box8 box" data-aos="zoom-in">
           <img src="./img/texture.jpg" alt="" />
           <div class="text-content">
             <h3>Texture</h3>
@@ -254,7 +275,7 @@
         </p>
       </div>
     </footer>
-
+    <!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="app.js"></script>
   </body>
