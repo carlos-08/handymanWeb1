@@ -170,7 +170,7 @@ textarea::placeholder {
     gap: 3rem; }
     #section2 .services .box {
       background: #f3f3f3;
-      border-radius: 5px;
+      border-radius: 10px;
       box-shadow: 5px 5px 10px rgba(140, 140, 140, 0.5); }
       #section2 .services .box img {
         height: 200px;
@@ -187,23 +187,6 @@ textarea::placeholder {
           color: #494949;
           font-size: 1.2rem;
           margin-top: 8px; }
-
-#about {
-  width: 28%;
-  margin: 7.3rem 0 0 15%; }
-  #about h3 {
-    font-size: 1.8rem;
-    color: #525252;
-    margin-bottom: 10px; }
-  #about .line {
-    background: #3e8e84;
-    width: 30px;
-    height: 5px;
-    margin-bottom: 15px; }
-  #about p {
-    line-height: 1.7rem;
-    color: #494949;
-    font-size: 1.1rem; }
 
 #testimonials {
   text-align: center;

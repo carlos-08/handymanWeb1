@@ -230,7 +230,7 @@ textarea::placeholder {
         height: 200px;
         width: 100%;
       }
-      border-radius: 5px;
+      border-radius: 10px;
 
       box-shadow: 5px 5px 10px rgba(140, 140, 140, 0.5);
 
@@ -253,32 +253,6 @@ textarea::placeholder {
         }
       }
     }
-  }
-}
-
-// About
-
-#about {
-  width: 28%;
-  margin: 7.3rem 0 0 15%;
-
-  h3 {
-    font-size: 1.8rem;
-    color: #525252;
-    margin-bottom: 10px;
-  }
-
-  .line {
-    background: $line-color;
-    width: 30px;
-    height: 5px;
-    margin-bottom: 15px;
-  }
-
-  p {
-    line-height: 1.7rem;
-    color: $grey-color;
-    font-size: 1.1rem;
   }
 }
 
