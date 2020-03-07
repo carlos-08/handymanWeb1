@@ -46,80 +46,17 @@ AOS.init({
   duration: 0900
 });
 
-// smooth scroll
+// jQuery Smooth Scroll
+$("#nav-bar a").on("click", function(e) {
+  if (this.hash !== "") {
+    e.preventDefault();
+    const hash = this.hash;
 
-function smoothScroll(target, duration) {
-  let target1 = document.querySelector(target);
-
-  // get the position
-  let targetPosition = target1.getBoundingClientRect().top;
-
-  let startPosition = window.pageYOffset;
-
-  // get the distance
-  let distance = targetPosition - startPosition + -40;
-  var startTime = null;
-
-  function animation(currentTime) {
-    if (startTime === null) startTime = currentTime;
-    let timeElapsed = currentTime - startTime;
-    let run = ease(timeElapsed, startPosition, distance, duration);
-
-    // scroll verticaly
-    window.scrollTo(0, run);
-
-    if (timeElapsed < duration) requestAnimationFrame(animation);
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top
+      },
+      800
+    );
   }
-
-  //  ease animation function parameters (timeElapsed, startPosition, distance, duration)
-  function ease(t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  }
-
-  requestAnimationFrame(animation);
-}
-
-let services = document.querySelector(".servicesLink");
-let home = document.querySelector(".home");
-let about = document.querySelector(".aboutLink");
-let contact = document.querySelector(".contacLink");
-let contactBottom = document.querySelector(".contactBottom");
-
-services.addEventListener("click", () => {
-  smoothScroll("#section2", 1500);
 });
-home.addEventListener("click", () => {
-  smoothScroll("#main-header", 1500);
-});
-about.addEventListener("click", () => {
-  smoothScroll("#section1", 1500);
-});
-contact.addEventListener("click", () => {
-  smoothScroll("#contact", 1500);
-});
-
-contactBottom.addEventListener("click", () => {
-  smoothScroll("#contact", 1500);
-});
-
-// Quotation Form
-// function contact() {
-//   let submitBtn = document.querySelector(".submit");
-
-//   submitBtn.addEventListener("click", event => {
-//     let name = document.querySelector(".name");
-//     let email = document.querySelector(".email").value;
-//     let message = document.querySelector(".message").value;
-//     let statusElm = document.querySelector(".status");
-//     statusElm.empty();
-
-//     if (!(email.length > 5 && email.includes("@") && email.includes("."))) {
-//       event.preventDefault();
-//       statusElm.textContent = "Email is not valid";
-//     }
-//   });
-// }
-// contact();
