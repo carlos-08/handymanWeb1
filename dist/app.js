@@ -56,7 +56,7 @@ $("#nav-bar a").on("click", function(e) {
       {
         scrollTop: $(hash).offset().top
       },
-      800
+      900
     );
   }
 });
