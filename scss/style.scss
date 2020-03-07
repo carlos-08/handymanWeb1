@@ -298,11 +298,11 @@ textarea::placeholder {
   text-align: center;
   background: $dark-color;
   color: $white-color;
-  padding: 20px 0;
+  padding: 20px 15px;
 }
 
 .copy {
-  margin-top: 15px;
+  margin: 10px;
 
   p {
     color: #c9c9c9;

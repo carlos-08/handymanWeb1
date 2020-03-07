@@ -224,10 +224,10 @@ textarea::placeholder {
   text-align: center;
   background: #333;
   color: #fff;
-  padding: 20px 0; }
+  padding: 20px 15px; }
 
 .copy {
-  margin-top: 15px; }
+  margin: 10px; }
   .copy p {
     color: #c9c9c9; }
   .copy p span {
