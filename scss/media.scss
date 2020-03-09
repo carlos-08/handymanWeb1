@@ -34,7 +34,8 @@
   }
 }
 
-@media screen and (max-width: 800px) {
+@media (orientation: portrait) and (max-width: 800px),
+  (orientation: landscape) {
   .logo {
     margin-left: 4%;
   }
@@ -97,10 +98,10 @@
 
   .scroll-down {
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
     left: 50%;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 
     transform: translateY(-80px) translateX(-50%) rotate(45deg);
     span {
@@ -192,12 +193,12 @@
     font-size: 1rem;
   }
   #section1 .text-content {
-    width: 90%;
+    width: 85%;
     margin: 30px 5%;
   }
 
   #section1 .quotation-form {
-    width: 90%;
+    width: 85%;
     margin: 30px 5%;
     form button {
       width: 50%;
@@ -211,32 +212,32 @@
   }
 
   #testimonials .testimonial {
-    width: 90%;
+    width: 85%;
   }
 }
 
-@media (max-width: 400px) {
-  .showcase-text {
-    // position: relative;
-    top: 36%;
-    color: $white-color;
-    font-size: 0.9rem;
+// @media (max-width: 400px) and (orientation: landscape) {
+//   .showcase-text {
+//     // position: relative;
+//     top: 36%;
+//     color: $white-color;
+//     font-size: 0.9rem;
 
-    width: 70%;
-  }
+//     width: 70%;
+//   }
 
-  .nav-list {
-    position: absolute;
-    right: 0;
+//   .nav-list {
+//     position: absolute;
+//     right: 0;
 
-    top: 7.5vh;
-  }
+//     top: 7.5vh;
+//   }
 
-  #section2 {
-    .services {
-      display: grid;
-      grid-template-columns: 1fr;
-      margin: 0 6% 0 4%;
-    }
-  }
-}
+//   #section2 {
+//     .services {
+//       display: grid;
+//       grid-template-columns: 1fr;
+//       margin: 0 6% 0 4%;
+//     }
+//   }
+// }
