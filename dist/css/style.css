@@ -367,6 +367,7 @@ textarea::placeholder {
       width: 50%; }
   #section2 .services {
     grid-template-columns: 1fr;
+    width: 85%;
     margin: 0 auto; }
   #testimonials .testimonial {
     width: 85%; } }
