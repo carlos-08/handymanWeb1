@@ -312,18 +312,18 @@ textarea::placeholder {
       animation: animate 1.5s linear infinite;
       opacity: 0; }
       .scroll-down span:nth-child(1) {
-        transform: translate(-15px, -15px);
+        transform: translate(-13px, -13px);
         animation-delay: -0.4s; }
       .scroll-down span:nth-child(2) {
         transform: translate(0, 0);
         animation-delay: -0.2s; }
       .scroll-down span:nth-child(3) {
-        transform: translate(15px, 15px);
+        transform: translate(13px, 13px);
         animation-delay: 0; }
   @keyframes animate {
     0% {
-      top: -5px;
-      left: -5px;
+      top: -3px;
+      left: -3px;
       opacity: 0; }
     25% {
       top: 0px;
@@ -331,8 +331,8 @@ textarea::placeholder {
       opacity: 1; }
     50%,
     100% {
-      top: 5px;
-      left: 5px;
+      top: 3;
+      left: 3px;
       opacity: 0; } }
   #section1 {
     display: grid;
