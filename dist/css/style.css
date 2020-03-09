@@ -252,7 +252,7 @@ textarea::placeholder {
   #testimonials .testimonial {
     width: 50%; } }
 
-@media (orientation: portrait) and (max-width: 800px), (orientation: landscape) {
+@media screen and (max-width: 800px), (orientation: landscape) and (max-width: 850px) {
   .logo {
     margin-left: 4%; }
   .nav-list {
