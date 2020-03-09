@@ -194,12 +194,12 @@
   }
   #section1 .text-content {
     width: 85%;
-    margin: 30px 5%;
+    margin: 30px auto;
   }
 
   #section1 .quotation-form {
     width: 85%;
-    margin: 30px 5%;
+    margin: 30px auto;
     form button {
       width: 50%;
     }
@@ -237,7 +237,7 @@
     .services {
       display: grid;
       grid-template-columns: 1fr;
-      margin: 0 6% 0 4%;
+      margin: 0 8%;
     }
   }
 }
