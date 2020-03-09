@@ -350,7 +350,7 @@ textarea::placeholder {
   #testimonials .testimonial {
     width: 72%; } }
 
-@media screen and (max-width: 500px), (orientation: landscape) and (max-width: 650px) {
+@media screen and (max-width: 500px) {
   .logo {
     font-size: 1.1rem; }
   .showcase-text .phone {
@@ -370,6 +370,21 @@ textarea::placeholder {
     margin: 0 auto; }
   #testimonials .testimonial {
     width: 85%; } }
+
+@media (max-width: 400px), (orientation: landscape) and (max-width: 650px) {
+  .showcase-text {
+    top: 36%;
+    color: #fff;
+    font-size: 0.9rem;
+    width: 70%; }
+  .nav-list {
+    position: absolute;
+    right: 0;
+    top: 7.5vh; }
+  #section2 .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 6% 0 4%; } }
 
 .nav-active {
   transform: translateX(0%); }
