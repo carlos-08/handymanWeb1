@@ -28,7 +28,7 @@ a {
   color: #3e8e84; }
 
 .showcase {
-  background: url(../img/pexels-photo-2.jpeg) center center/cover no-repeat;
+  background: url(../img/showcase.jpg) center center/cover no-repeat;
   width: 100%;
   height: 70vh;
   z-index: 0; }
