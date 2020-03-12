@@ -163,6 +163,9 @@ textarea::placeholder {
     background: #126157;
     color: #fff; }
 
+.greenBorder {
+  border: 1px solid #00ff00 !important; }
+
 #section2 {
   background: #c9c9c9; }
   #section2 .services {
