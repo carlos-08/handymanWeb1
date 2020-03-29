@@ -344,7 +344,7 @@ textarea::placeholder {
     #section1 .text-content,
     #section1 .quotation-form {
       width: 92%;
-      margin: 40px 30px; }
+      margin: 40px auto; }
   #section2 .services {
     display: grid;
     grid-template-columns: auto auto;
@@ -388,7 +388,7 @@ textarea::placeholder {
   #section2 .services {
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 8%; } }
+    margin: 0 auto; } }
 
 .nav-active {
   transform: translateX(0%); }

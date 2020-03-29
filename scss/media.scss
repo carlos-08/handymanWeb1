@@ -159,7 +159,7 @@
     .text-content,
     .quotation-form {
       width: 92%;
-      margin: 40px 30px;
+      margin: 40px auto;
     }
   }
 
@@ -237,7 +237,7 @@
     .services {
       display: grid;
       grid-template-columns: 1fr;
-      margin: 0 8%;
+      margin: 0 auto;
     }
   }
 }
